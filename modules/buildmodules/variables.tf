@@ -2,8 +2,8 @@ variable "instance_type" {
 type ="map"
 
 default = {
-  default = "t2.nano"
-  prod = "t2.micro"
+  default = "t2.micro"
+  prod = "t2.nano"
   test = "m4.large"
 }
 }
